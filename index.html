@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Odin Project | Food Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <a href="./recipes/fried_rice.html">Fried Rice Recipe</a>
-    <a href="./recipes/spaghetti_bolognese.html">Spaghetti Bolognese Recipe</a>
-    <a href="./recipes/pancakes.html">Pancakes Recipe</a>
+    <h1 class="web-title">Odin Recipes</h1>
+    <hr>
+    <p>Available Recipes:</p>
+    <ul>
+        <li class="recipe-menu"><a href="./recipes/fried_rice.html">Fried Rice Recipe</a>
+            <p class="recipe-description">Classic comfort food</p>
+            <img class="menu-image" src="images/friedrice.jpg" alt="Fried Rice Image">
+        </li>
+        <li class="recipe-menu"><a href="./recipes/spaghetti_bolognese.html">Spaghetti Bolognese Recipe</a>
+            <p class="recipe-description">Popular pasta dish</p>
+            <img class="menu-image" src="images/spaghettib.jpg" alt="Spaghetti Bolognese Image">
+        </li>
+        <li class="recipe-menu"><a href="./recipes/pancakes.html">Pancakes Recipe</a>
+            <p class="recipe-description">Delicious breakfast choice</p>
+            <img class="menu-image" src="images/pancakes.jpg" alt="Pancakes">
+        </li>
+    </ul>
 </body>
 </html>
